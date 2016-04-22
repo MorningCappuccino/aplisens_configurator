@@ -25,11 +25,9 @@
         <label>Преобразователь давления измерительный</label>
 <!-- equipment mode -->
         <div id="eq_mode" class="dropdown dd-mod" title="Модификация преобразователя">
-          <button class="btn btn-default dropdown-toggle btn-conf" type="button" id="1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-            <!-- Dropdown -->
-          </button>
+          <button class="btn btn-default dropdown-toggle btn-conf" type="button" id="1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"></button>
 
-          <ul class="dropdown-menu" aria-labelledby="1">
+          <ul class="dropdown-menu" aria-labelledby="1" id="1">
             <li><a href="#">APC-2000 (AL)</a></li>
             <li><a href="#">PC-28</a></li>
             <li><a href="#">PC-50</a></li>
@@ -40,10 +38,8 @@
         <span>/</span>
 <!-- accuracy class -->
         <div id="accuracy" class="dropdown dd-mod" title="Класс точности">
-          <button class="btn btn-default dropdown-toggle btn-conf" type="button" id="2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" disabled>
-            <!-- Dropdown -->
-          </button>
-          <ul class="dropdown-menu" aria-labelledby="2">
+          <button class="btn btn-default dropdown-toggle btn-conf" type="button" id="2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" disabled></button>
+          <ul class="dropdown-menu" aria-labelledby="2" id="2">
 <!--             <li><a href="#">0,2</a></li>
             <li><a href="#">0,25</a></li>
             <li><a href="#">0,3</a></li>
@@ -55,10 +51,8 @@
         <span>/</span>
 <!-- special version -->
         <div id="special_version" class="dropdown dd-mod" title="Спец. исполнение">
-          <button class="btn btn-default dropdown-toggle btn-conf" type="button" id="3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" disabled>
-            <!-- Dropdown -->
-          </button>
-          <ul class="dropdown-menu" aria-labelledby="3">
+          <button class="btn btn-default dropdown-toggle btn-conf" type="button" id="3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" disabled></button>
+          <ul class="dropdown-menu" aria-labelledby="3" id="3">
 <!--             <li><a href="#">Ex</a></li>
             <li><a href="#">Exd</a></li>
             <li><a href="#">Hastelloy</a></li>
@@ -75,10 +69,8 @@
           <span>/</span>
 <!-- measurement range -->
         <div id="measurement_range" class="dropdown dd-mod" title="Измерительный диапазон">
-          <button class="btn btn-default dropdown-toggle btn-conf" disabled type="button" id="4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" disabled>
-            <!-- Dropdown -->
-          </button>
-          <ul class="dropdown-menu" aria-labelledby="4">
+          <button class="btn btn-default dropdown-toggle btn-conf" disabled type="button" id="4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" disabled></button>
+          <ul class="dropdown-menu" aria-labelledby="4" id="4">
 
           </ul>
         </div>
@@ -86,10 +78,8 @@
           <span>/</span>
 <!-- body type -->
         <div id="body_type" class="dropdown dd-mod" title="Исполнение корпуса">
-          <button class="btn btn-default dropdown-toggle btn-conf" disabled type="button" id="5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" disabled>
-            <!-- Dropdown -->
-          </button>
-          <ul class="dropdown-menu" aria-labelledby="5">
+          <button class="btn btn-default dropdown-toggle btn-conf" disabled type="button" id="5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" disabled></button>
+          <ul class="dropdown-menu" aria-labelledby="5" id="5">
 
           </ul>
         </div>
@@ -99,7 +89,7 @@
           <button class="btn btn-default dropdown-toggle btn-conf" disabled type="button" id="6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" disabled>
             <!-- Dropdown -->
           </button>
-          <ul class="dropdown-menu" aria-labelledby="6">
+          <ul class="dropdown-menu" aria-labelledby="6" id="6">
 
           </ul>
         </div>

@@ -69,7 +69,7 @@ function reviveItself(){
 				nextParam = +accuracyBtn.attr('id');
 
 		//clear accuracy label
-		accuracyBtn.text('');
+		// accuracyBtn.text('');
 
 
 
@@ -173,6 +173,22 @@ function reviveSpecialVersion(){
 }
 
 
+$('.dropdown ul').on('click', function(){
+	var currListID = this.id,
+			nextListID = +currListID + 1;
+
+
+	//if next Dropwdown selected we reset all Dropdonws since next Dropdonw
+	if ($('button#' + nextListID).text() != ''){
+		for (var i = nextListID; i<=9; i++){
+			console.log($('.dropdown button#' + i));
+			$('.dropdown button#' + i).text('');
+			$('.dropdown button#' + i + ' + ul').empty();
+		}
+	}
+
+});
+
 /*
 	helpers API
  */
@@ -190,11 +206,12 @@ function blink(dropDownID, color){
 			btn.animate({backgroundColor: '#fff'}, 200)
 		}
 	});
-
-
 }
 
-
+/*
+	Temprary
+ */
+$('button').removeAttr('disabled');
 
 
 })();
